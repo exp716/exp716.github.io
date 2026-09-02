@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Webquest</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body{
+            background-image: rgb(244, 199, 255);
+        }
+        @font-face {
+            font-family: Press-Start;
+            src: url(assets/Press_Start_2P/PressStart2P-Regular.ttf);
+        }
+        .bg_image{
+            background-image: url(assets/bg_img.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #navbar_buttons {
+            font-size: 10px;
+            font-family: Press-Start;
+            margin-left: 6px;
+            margin-top: 18px;
+            margin-bottom: 18px;
+            border: #37034C 2px solid;
+            background-color: #FFFCBB;
+            color:#37034C;
+        }
+        #navbar_buttons:hover {
+            animation: enlarge 0.5s 1;
+            animation-fill-mode: forwards;
+            color:#37034C;
+
+        }
+
+        @keyframes enlarge{
+            100%{
+            font-size:15px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            }
+        }
+        .carousel-item img{
+            width: auto;
+            height: 100%;
+        }
+        .col-sm-5{
+            border: #37034C 3px solid;
+            background-image: url(assets/textbox-main.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            margin-right: 10px;
+
+        }
+        #extras{
+            margin-right: 10px;
+            font-family: Press-Start;
+            color:#37034C;
+        }
+        #extras img {
+            width: 300px;
+            height: auto;
+            border: #37034C 3px solid;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-image: url(assets/navbar-up.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-top: 10px;
+            border-top: #37034C 3px solid;
+        }
+    </style>
+
+</head>
+
+
+<body class="bg_image min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-image: url(assets/navbar-up.png); background-size: cover; background-position: center; background-repeat: no-repeat; border-bottom: #37034C 3px solid; ">
+    <div class="container">
+        <a class="navbar-brand">&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-item nav-link disabled " id="navbar_buttons" href="home.html">Home</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="intro.html">Introduction</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="facilitation.html">Facilitation</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="synthesisandanalysis.html">Synthesis & Analysis</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="communicationmodel.html">Model</a>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container">
+        <br><br><br>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-3 w-auto px-0" id="extras">
+                <h4 style="background-image: url(assets/bg_img2.png); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 5px; padding-top: 12px; padding-bottom: 12px; border: #37034C 3px solid; text-align: center;">Background</h4>
+                <img src="assets/HomePic.png">
+            </div>
+            <div class="col-sm-5" style="padding: 20px;">
+                <h2>Testing title here</h2>
+                <h4>Testing text and other stuff here <br><br><br><br><br><br><br><br> :></h4>
+            </div>
+            <div class="col-sm-3 h-auto" id="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" style="border: #37034C 3px solid; background-image: url(assets/carousel_bg.png); background-size: cover; background-position: center; background-repeat: no-repeat; margin-left: 10px;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="assets/koolkid_slide1.png" class="d-block w-100 object-fit-cover" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="bottom" title="Honami wit the drums!" data-bs-content="Insert more info here ummm" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="assets/koolkid_slide2.png" class="d-block w-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="assets/koolkid_slide3.png" class="d-block w-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="assets/koolkid_slide4.png" class="d-block w-100 object-fit-cover" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <button type="button" class="btn btn-danger" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Test popover</button>
+    !-->
+
+    <footer>
+        &nbsp;
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+</html>
