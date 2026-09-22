@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Webquest</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body{
+            background-image: rgb(244, 199, 255);
+        }
+        @font-face {
+            font-family: Press-Start;
+            src: url(assets/Press_Start_2P/PressStart2P-Regular.ttf);
+        }
+        .bg_image{
+            background-image: url(assets/bg_img.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #navbar_buttons {
+            font-size: 10px;
+            font-family: Press-Start;
+            margin-left: 6px;
+            margin-top: 18px;
+            margin-bottom: 18px;
+            border: #37034C 2px solid;
+            background-color: #FFFCBB;
+            color:#37034C;
+        }
+        #navbar_buttons:hover {
+            animation: enlarge 0.5s 1;
+            animation-fill-mode: forwards;
+            color:#37034C;
+
+        }
+
+        @keyframes enlarge{
+            100%{
+            font-size:15px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            }
+        }
+        .carousel-item img{
+            width: auto;
+            height: 100%;
+        }
+        .col-sm-2{
+            border: #37034C 3px solid;
+            background-image: url(assets/textbox-main.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-family: Press-Start;
+            height: auto;
+        }
+        .col-sm-9, .col-sm-4{
+            border: #37034C 3px solid;
+            background-image: url(assets/carousel_bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: auto;
+        }
+        .col-sm-11{
+            margin: 10px;
+            margin-top: 15px;
+            height: auto;
+        }
+        p {
+            font-size: large;
+        }
+        #extras{
+            border: #37034C 3px solid;
+            margin-right: 10px;
+            font-family: Press-Start;
+            color:#37034C;
+
+        }
+        #carousel{
+            border: #37034C 3px solid;
+            background-image: url(assets/carousel_bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+        }
+        footer{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-image: url(assets/navbar-up.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-top: 10px;
+            border-top: #37034C 3px solid;
+
+        }
+    </style>
+
+</head>
+
+
+<body class="bg_image min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-image: url(assets/navbar-up.png); background-size: cover; background-position: center; background-repeat: no-repeat; border-bottom: #37034C 3px solid; ">
+    <div class="container">
+        <a class="navbar-brand">&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-item nav-link " id="navbar_buttons" href="home.html">Home</a>
+                <a class="nav-item nav-link disabled " id="navbar_buttons" href="intro.html">Introduction</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="facilitation.html">Facilitation</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="synthesisandanalysis.html">Synthesis & Analysis</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="communicationmodel.html">Model</a>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container">
+        <br><br>
+
+        
+        <div class="row justify-content-center"> 
+            <div class="col-sm-2 p-2 px-4 w-auto">
+                <br>
+                <p>&nbsp;Description&nbsp;</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-sm-9">
+                <h4 style="text-align: justify; padding: 20px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+                    in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                </h4>
+            </div>
+        </div>
+
+
+        <br><br>
+
+
+        <div class="row justify-content-center">
+            <div class="col-sm-2 p-2 px-4 w-auto">
+                <br>
+                <p> Purpose</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-sm-4">
+                <h4 style="text-align: justify;">
+                    The group will observe and analyze communication barriers in a buyer-and-seller interaction 
+                    to determine how these barriers may affect KOOLLKIDS sellers' ability to process orders 
+                    accurately and efficiently, particularly during break or lunch periods when various sources 
+                    of noise can interfere with communication. In line with this, the group’s objectives for the 
+                    process observation are:
+                </h4>
+            </div>
+            <div class="col-sm-7">
+                <h4 style="text-align: justify; background-image: url(assets/intro_bg2.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid; padding: 5px;">
+                    To assess which physical noises are the most disruptive in the communication process and to 
+                    suggest ways to lessen the effect of said noises.
+                </h4>
+                <br>
+                <h4 style="text-align: justify; background-image: url(assets/intro_bg2.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid; padding: 5px;">
+                    To examine how the customer and vendor respond to and overcome the communication barrier.
+                </h4>
+                <br>
+                <h4 style="text-align: justify; background-image: url(assets/intro_bg2.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid; padding: 5px;">
+                    To determine how communication barriers affect the accuracy and efficiency of order-taking.
+                </h4>
+            </div>
+        </div>
+
+
+        <br><br>
+
+
+        <div class="row justify-content-center"> 
+            <div class="col-sm-2 p-2 px-4 w-auto">
+                <br>
+                <p> Project Details</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-sm-1 justify-content-right" style="margin-right: 7px;"> <img src="assets/PIN.png" style="width: 100%; height: auto;"> </div> 
+            <div class="col-sm-7">
+                <h4 style="text-align: justify; background-image: url(assets/intro_bg2.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid; padding: 15px; padding-top: 30px; padding-bottom: 30px;">
+                    KOOLKID Stall, Gazebo, Academic Building 1, Philippine Science High School - Central Luzon Campus in CFZ
+                </h4>
+            </div>
+            <div class="col-sm-1" style="margin-right: 7px;">&nbsp;</div> 
+        </div>
+                <br>
+        <div class="row justify-content-center"> 
+            <div class="col-sm-1 justify-content-right" style="margin-right: 7px;">&nbsp;</div> 
+            <div class="col-sm-7">
+                <h4 style="text-align: justify; background-image: url(assets/intro_bg2.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid; padding: 15px; padding-top: 30px; padding-bottom: 30px;">
+                    Observation 1: August 26, 2026 - 12:10 to 1:00 PM<br>Observation 2: September 7, 2026 - 12:10 to 1:00 PM
+                </h4>
+            </div>
+            <div class="col-sm-1 justify-content-right" style="margin-right: 7px;"> <img src="assets/CALENDAR.png" style="width: 100%; height: auto;"> </div> 
+
+        </div>
+                <br>
+        <div class="row justify-content-center">
+            <div class="col-sm-1 justify-content-right" style="margin-right: 2px;"> <img src="assets/LOOK.png" style="width: 100%; height: auto;"> </div>  
+            <div class="col-sm-7">
+                <h4 style="text-align: justify; background-image: url(assets/intro_bg2.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid; padding: 15px; padding-top: 30px; padding-bottom: 30px;">
+                    In-person observation<br>
+                </h4>
+            </div>
+            <div class="col-sm-1" style="margin-right: 2px;">&nbsp;</div> 
+        </div>
+
+
+        <br><br>
+
+
+        <div class="row justify-content-center"> 
+            <div class="col-sm-2 p-2 px-4 w-auto">
+                <br>
+                <p>Methods</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center" style="background-image: url(assets/intro_bar.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid;">
+            <div class="col-sm-11 w-auto" style=" font-family: Press-Start;">
+                <h6>Data Gathering</h6>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="background-image: url(assets/carousel_bg.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; border-top: none;">
+            <div class="col-sm-11 w-auto">
+                <h4>The group will gather information directly by observing the communication process between KOOLLKIDS sellers and customers during the scheduled observation periods. The following methods will be used to document the communication process properly:</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-sm-3">
+                <h6 style="font-family: Press-Start; font-size: smaller; padding-top: 7px; text-align: center; background-image: url(assets/textbox-main.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; margin-bottom: 0; border-bottom: none;">Video Recording and<br>Photo Documentation</h6>
+                <h5 style="background-image: url(assets/carousel_imgflip.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; padding: 10px; text-align: justify;">With permission from the sellers and their customers, the group will use their phones to take pictures and record videos of their interactions during the observation. These recordings will serve as a reference for the group in analyzing the communication process.</h4>
+            </div>
+            <div class="col-sm-3">
+                <h6 style="font-family: Press-Start; padding-top: 15px; text-align: center; background-image: url(assets/textbox-main.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; margin-bottom: 0; border-bottom: none;">Field Observation</h6>
+                <h5 style="background-image: url(assets/carousel_imgflip.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; padding: 10px; text-align: justify;">The group will directly observe the interactions between the sellers and customers using their senses, particularly sight and hearing, to gather relevant information. Additionally, they will observe the elements of communication, including the sender, receiver, message, channel, feedback, context, effect, and noise or possible communication barriers.</h4>
+            </div>
+            <div class="col-sm-3">
+                <h6 style="font-family: Press-Start; padding-top: 15px; text-align: center; background-image: url(assets/textbox-main.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; margin-bottom: 0; border-bottom: none;">Note Taking</h6>
+                <h5 style="background-image: url(assets/carousel_imgflip.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; padding: 10px; text-align: justify;">Before the observation, the group will prepare a checklist containing the objectives and communication elements to be observed. This will guide the group in accurately identifying and recording specific actions, responses, and significant events during the observation without adding personal interpretations.</h4>
+            </div>
+        </div>
+
+        
+        <br><br>
+
+
+        <div class="row justify-content-center" style="background-image: url(assets/intro_bar.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid;">
+            <div class="col-sm-11 w-auto" style=" font-family: Press-Start;">
+                <h6>Synthesizing the Process</h6>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="background-image: url(assets/carousel_bg.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; border-top: none;">
+            <div class="col-sm-11 w-auto">
+                <h4>After the observation, the group will organize and analyze their notes and documentation. They will compare the observations from the allotted two schedules to identify recurring communication patterns, effective communication practices, and possible barriers. This method will help the group connect the gathered observations and prepare the information needed for the communication model.</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center" style="background-image: url(assets/intro_bar.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid;">
+            <div class="col-sm-11 w-auto" style=" font-family: Press-Start;">
+                <h6>Presenting a Communication Model</h6>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="background-image: url(assets/carousel_bg.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; border-top: none;">
+            <div class="col-sm-11 w-auto">
+                <h4>To describe the interaction, the group will use the Interactive Communication Model. This model is suitable as it emphasizes that both the seller and customer actively participate in the interaction by responding one after another to each other through their words, actions, and other cues. Applications such as Canva and ibisPaint X will be used to organize and present the elements observed during the transaction.</h4>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-center" style="background-image: url(assets/intro_bar.png); background-size: cover; background-position: center; background-repeat: no-repeat; border: #37034C 3px solid;">
+            <div class="col-sm-11 w-auto" style=" font-family: Press-Start;">
+                <h6>Limitations of the Method</h6>
+            </div>
+        </div>
+        <div class="row justify-content-center" style="background-image: url(assets/carousel_bg.png); background-size: cover; background-position: left; background-repeat: no-repeat; border: #37034C 3px solid; border-top: none;">
+            <div class="col-sm-11 w-auto">
+                <h4>The observation has several limitations. First, the short observation period may limit the number and variety of interactions and communication situations that can be observed. Second, the group will focus primarily on verbal oral communication, as nonverbal cues may be easily missed or misinterpreted by the observers. Lastly, the presence of the observers and recording devices may cause participants to feel conscious or self-aware, which may influence their natural behavior and communication during the observation.</h4>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+
+    <!--
+    <button type="button" class="btn btn-danger" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Test popover</button>
+    !-->
+
+    <footer>
+        &nbsp;
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Webquest</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body{
+            background-image: rgb(244, 199, 255);
+        }
+        @font-face {
+            font-family: Press-Start;
+            src: url(assets/Press_Start_2P/PressStart2P-Regular.ttf);
+        }
+        .bg_image{
+            background-image: url(assets/bg_img.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #navbar_buttons {
+            font-size: 10px;
+            font-family: Press-Start;
+            margin-left: 6px;
+            margin-top: 18px;
+            margin-bottom: 18px;
+            border: #37034C 2px solid;
+            background-color: #FFFCBB;
+            color:#37034C;
+        }
+        #navbar_buttons:hover {
+            animation: enlarge 0.5s 1;
+            animation-fill-mode: forwards;
+            color:#37034C;
+
+        }
+
+        @keyframes enlarge{
+            100%{
+            font-size:15px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            }
+        }
+        .carousel-item img{
+            /*width: auto;*/
+            height: 95%;
+            padding-top: 10px;
+        }
+        .col-sm-2{
+            border: #37034C 3px solid;
+            background-image: url(assets/textbox-main.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-family: Press-Start;
+            height: auto;
+        }
+        .col-sm-9, .col-sm-4, .col-sm-11, .col-sm-8{
+            border: #37034C 3px solid;
+            background-image: url(assets/carousel_bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: auto;
+        }
+        .col-sm-6{
+            border: #37034C 3px solid;
+            background-image: url(assets/intro_bg2.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: auto;
+            text-align: center;
+        }
+        p {
+            font-size: large;
+        }
+        #extras{
+            border: #37034C 3px solid;
+            margin-right: 10px;
+            font-family: Press-Start;
+            color:#37034C;
+
+        }
+        #carousel, #carousel2{
+            border: #37034C 3px solid;
+            background-image: url(assets/carousel_bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        footer{
+            background-image: url(assets/navbar-up.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-top: 10px;
+            border-top: #37034C 3px solid;
+
+        }
+    </style>
+
+</head>
+
+
+<body class="bg_image min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-image: url(assets/navbar-up.png); background-size: cover; background-position: center; background-repeat: no-repeat; border-bottom: #37034C 3px solid; ">
+    <div class="container">
+        <a class="navbar-brand">&nbsp;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-item nav-link " id="navbar_buttons" href="index.html">Home</a>
+                <a class="nav-item nav-link disabled " id="navbar_buttons" href="intro.html">Introduction</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="facilitation.html">Facilitation<a>
+
+                <a class="nav-item nav-link " id="navbar_buttons" href="synthesisandanalysis.html">Synthesis & Analysis</a>
+                <a class="nav-item nav-link " id="navbar_buttons" href="communicationmodel.html">Model</a>
+            </div>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container">
+        <br>
+        <div class="row justify-content-center"> 
+            <div class="col-sm-2 p-2 px-4 w-auto">
+                <br>
+                <p>&nbsp;Photos & Videos&nbsp;</p>
+            </div>
+        </div>
+        
+        <br>
+
+        <div class="row justify-content-center"> 
+            <div class="col-sm-6">
+                
+                <h1>&nbsp;Observation #1&nbsp;</h1>
+            </div>
+            <div class="col-sm-6">
+                
+                <h1>&nbsp;Observation #2&nbsp;</h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-6 h-auto" id="carousel">
+                <div id="carouselExampleIndicators" class="carousel carousel-dark slide" style="background-image: url(assets/carousel_bg.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 550px;">
+                        <img src="Photos/20260826_121829.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item" style="height: 550px;">
+                        <img src="Photos/20260826_121939.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                        </div>
+                        <div class="carousel-item" style="height: 550px;">
+                        <video class="d-block w-100 object-fit-cover" alt="..." controls autoplay muted style="padding-left: 10px; padding-right: 10px; padding-top: 10px;"><source src="Videos/20260826_121814.mp4" type="video/mp4"></video>
+                        </div>
+                        <div class="carousel-item" style="height: 550px;">
+                        <video class="d-block w-100 object-fit-cover" alt="..." controls autoplay muted style="padding-left: 10px; padding-right: 10px; padding-top: 10px;"><source src="Videos/20260826_122122.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" style="width: 15px;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" style="width: 15px;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-6 h-auto" id="carousel2">
+                <div id="carouselExampleIndicators2" class="carousel carousel-dark slide" style="background-image: url(assets/carousel_bg.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 550px;">
+                        <video class="d-block w-100 object-fit-cover" alt="..." controls autoplay muted style="padding-left: 10px; padding-right: 10px; padding-top: 10px;"><source src="Obs2/20260909_120606.mp4" type="video/mp4"></video>                        
+                        </div>
+                        <div class="carousel-item" style="height: 550px;">
+                        <video class="d-block w-100 object-fit-cover" alt="..." controls autoplay muted style="padding-left: 10px; padding-right: 10px; padding-top: 10px;"><source src="Obs2/20260909_120953.mp4" type="video/mp4"></video>                        
+                        </div>
+                        <div class="carousel-item" style="height: 550px;">
+                        <video class="d-block w-100 object-fit-cover" alt="..." controls autoplay muted style="padding-left: 10px; padding-right: 10px; padding-top: 10px;"><source src="Obs2/20260909_121049.mp4" type="video/mp4"></video>                        
+                        </div>
+                        <div class="carousel-item" style="height: 550px;">
+                        <video class="d-block w-100 object-fit-cover" alt="..." controls autoplay muted style="padding-left: 10px; padding-right: 10px; padding-top: 10px;"><source src="Obs2/20260909_121302.mp4" type="video/mp4"></video>                        
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev" style="width: 15px;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next" style="width: 15px;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <!--
+    <button type="button" class="btn btn-danger" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Test popover</button>
+    !-->
+
+    <footer class="fixed-bottom">
+        &nbsp;
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+</body>
+</html>
